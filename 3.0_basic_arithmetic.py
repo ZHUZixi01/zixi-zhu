@@ -24,10 +24,11 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: Two numbers from the user (text converted to float).
+# 2. Process: Add, subtract, multiply and divide them. Check for zero before dividing.
+# 3. Out: The sum, difference, product and division. If the second number is zero, show a message instead.
+# 4. What happens when the second number is zero, and why:  
+# I show a message and don't divide, because dividing by zero would crash the program (ZeroDivisionError).
 
 
 # Your code below
