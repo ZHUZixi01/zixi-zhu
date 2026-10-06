@@ -56,3 +56,26 @@ print(result)  # What does this print?
 ```
 
 What is the operator used to join strings in Python?
+
+---
+## 2026-10-06 15:28, in .
+
+**Me:** How to add two variables in python
+
+**Tutor:**
+
+**Concept:** Adding two variables in Python using the `+` operator.
+
+```python
+# TODO: assign two numbers to variables
+a = 5
+b = 3
+
+# TODO: add them and store the result
+result = a + b
+
+# TODO: print the result
+print(result)
+```
+
+What is the operator used to add two variables in Python?
