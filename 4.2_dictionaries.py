@@ -23,13 +23,38 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+# 1. In: No user input. I wrote the data myself: a name, an age, an occupation, a city and a salary, plus a dictionary that stores the same fields.
+# 2. Process: Print the five values one by one, build a dictionary with the same fields, then change the age field in the dictionary.
+# 3. Out: The five values printed separately, the dictionary, and the dictionary again after the age was updated.
+# 4. My object, my five fields, and why those: A person record. I chose name, age, occupation, city and salary because these are the fields I would really need to describe a person at work.
 
 
 # Your code below
 name = "John Doe"
 age = 30
-occupation = 
+occupation = "Software Engineer"
+city = "New York"
+salary = 50000
+
+print("Name: " + name)
+print(f"Age: {age}")
+print(f"Occupation: {occupation}")
+print(f"City: {city}")
+print(f"Salary: $" + str(salary))
+
+person = {
+    "name": "Trump",
+    "age": 50,
+    "occupation": "President",
+    "city": "Washington, D.C,",
+    "salary": 4000000
+}
+
+# print the dictionary
+print("Person dictionary:", person)
+
+# update the age field
+person["age"] = 51
+
+# print the updated dictionary
+print("Updated person dictionary:", person)

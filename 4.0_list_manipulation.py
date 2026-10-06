@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What my list is about, and what I computed from it:
+# 1. In: No user input. The data is a fixed list of numbers written in the code.
+# 2. Process: Store the list, sort it, and remove the last item with pop().
+# 3. Out: The list before sorting, the sorted list, and the list after removing the last item.
+# 4. What my list is about, and what I computed from it: My list is a set of numbers. I sorted it and removed the last item.
 
 
 # Your code below
@@ -44,4 +44,16 @@ print(num2)
 print(num3)
 
 # list before sort
-print
+print("List before sorting:", list)
+
+# sortimg the list
+list.sort()
+
+# printing the sorted list
+print("The sorted list is:", list)
+
+# removing the last item from the list
+list.pop()
+
+# print the list after removing the last number
+print("The list after removing the last:", list)
