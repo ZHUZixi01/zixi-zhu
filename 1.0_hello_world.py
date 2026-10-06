@@ -22,13 +22,13 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
+# 1. In:A custom string message and a loop range of 5.
+# 2. Process:A for loop iterates 5 times to generate line numbers and format the text.
+# 3. Out:Five numbered lines of the chosen message printed to the console.
+# 4. My message, and why:"Hello, Zixi!", because it's a friendly way to start learning Python.
 
 
 # Your code below
-print("Zixi Zhu")
-for i in range(1,6):
-    print("Zixi Zhu")
+message = "Hello, Zixi!"
+for i in range(1, 6):
+    print(f"{i}. {message}")
