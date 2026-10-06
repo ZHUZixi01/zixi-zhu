@@ -79,3 +79,38 @@ print(result)
 ```
 
 What is the operator used to add two variables in Python?
+
+---
+## 2026-10-06 20:07, in .
+
+**Me:** how to remove spaces from both ends of a string
+
+**Tutor:**
+
+Stripping whitespace from both ends of a string is done with the `strip()` method.
+
+```python
+def clean_text(text):
+    # TODO: remove spaces from both ends of the string
+    cleaned = text.strip()
+    return cleaned
+```
+
+What does `strip()` remove from both ends of the string?
+
+---
+## 2026-10-06 20:19, in .
+
+**Me:** how to capitalize the first letter of a string
+
+**Tutor:**
+
+Capitalising the first letter of a string.
+
+```python
+def capitalise_first(text):
+    # TODO: return text with its first character capitalised
+    pass
+```
+
+What built-in string method capitalises the first character of a string?
