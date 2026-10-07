@@ -24,10 +24,28 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What I compute for each item, and why it is worth showing:
+# 1. In: The list I built in exercise 4.0: [5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7]. No user input.
+# 2. Process: Loop through every item, find its position in the list with .index(), and compute its square (item ** 2).
+# 3. Out: One line per item, showing the item, its position and its square.
+# 4. What I compute for each item, and why it is worth showing: I compute the square of each number. The reader can see the item, where it sits in the list, and how big it becomes when squared, which makes it easy to compare the items at a glance.
 
 
 # Your code below
+list = [5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7]
+
+i = list[0]
+print(i)
+print(list.index(i))
+print(i**2)
+
+item2 = list[1]
+print(item2)
+print(list.index(item2))
+print(item2**2)
+
+
+# using for loop to iterate through the list and print the item, its positon, and its square
+for i in list:
+    print("The item is:", i, "and its position in the list is:", list.index(i), "and the square of the item is:",i**2)
+
+

@@ -28,10 +28,20 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My stop condition, my attempt limit, my summary:
+# 1. In: The user's answer, typed after the prompt (yes/no).
+# 2. Process: Strip the spaces, compare the answer with "yes" and "no", and break the loop when it matches.
+# 3. Out:  A message saying the user chose to continue or stop, or an invalid-input message, then the loop ends.
+# 4. My stop condition, my attempt limit, my summary: Stop condition: the user types "yes" or "no". Attempt limit: none in this version. Summary: none, the program only prints one message when it stops.
 
 
 # Your code below
+while True:
+    answer = input("Do you want to continue? (yes/no): ").strip()
+    if answer == "yes":
+        print("You chose to continue")
+        break
+    elif answer == "no":
+        print("You chose to stop")
+        break
+    else:
+        print("Invalid input. Please enter 'yes' or 'no'.")
